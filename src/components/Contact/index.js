@@ -154,6 +154,7 @@ const Contact = () => {
           <ContactInput placeholder="Your Name" name="from_name" required />
           <ContactInput placeholder="Subject" name="subject" required />
           <ContactInputMessage placeholder="Message" rows="4" name="message" required />
+          <input type="hidden" name="redirect" value="https://lottie.host/embed/08864251-aa5c-45ff-8e01-c8689d670646/aNzHaouqzl.lottie">
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
